@@ -3,7 +3,8 @@ import { AiOutlinePlus } from "react-icons/ai";
 import ToDo from "./ToDo";
 
 const style = {
-  bg: `h-screen w-screen p-4 bg-gradient-to-b from-green-200 to-green-300`,
+  bg: `h-screen w-screen p-4 bg-gradient-to-b from-gray-100 to-gray-400`,
+  container: `bg-gradient-to-r from-green-600 to-green-900 max-w-[500px] w-full m-auto rounded-md shadow-xl p-4`,
 };
 
 function App() {
@@ -27,6 +28,7 @@ function App() {
             <ToDo key={index} todo={todo} />
           ))}
         </ul>
+        <p className="{style.count}">You have 2 todos</p>
       </div>
     </div>
   );

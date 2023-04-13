@@ -1,4 +1,5 @@
 import React from "react";
+import { FaRegTrashAlt } from "react-icons/fa";
 
 const style = {};
 
@@ -9,6 +10,7 @@ const ToDo = ({ todo }) => {
         <input type="checkbox" />
         <p className={style.p}>{todo}</p>
       </div>
+      <button>{<FaRegTrashAlt />}</button>
     </li>
   );
 };
