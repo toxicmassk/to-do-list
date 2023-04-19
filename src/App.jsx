@@ -4,7 +4,10 @@ import ToDo from "./ToDo";
 
 const style = {
   bg: `h-screen w-screen p-4 bg-gradient-to-b from-gray-100 to-gray-400`,
-  container: `bg-gradient-to-r from-green-600 to-green-900 max-w-[500px] w-full m-auto rounded-md shadow-xl p-4`,
+  container: `bg-gradient-to-r from-green-600 to-green-900 max-w-[500px] w-auto m-auto rounded-md shadow-xl p-4`,
+  heading: `text-3xl font-bold text-center text-gray-800 p-2`,
+  form: `flex justify-between`,
+  input: `border p-2 w-full text-xl`,
 };
 
 function App() {
