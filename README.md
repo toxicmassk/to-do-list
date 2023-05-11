@@ -2,4 +2,4 @@
 
 ## used firebase to deploy
 
-![toDoListStartScreen][toDoListStartScreen.png]
+![toDoListStartScreen](/public/toDoListStartScreen.png)
